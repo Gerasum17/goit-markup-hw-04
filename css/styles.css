@@ -51,6 +51,9 @@ h6 {
 .header {
     padding: 0 15px;
     border-bottom: 1px solid #e7e9fc;
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -88,6 +91,11 @@ h6 {
     gap: 40px;
 }
 
+.header-menu-item{
+    position: relative;
+    color: #404bbf;
+}
+
 .header-menu-link {
     font-style: normal;
     font-weight: 500;
@@ -96,6 +104,7 @@ h6 {
     letter-spacing: 0.02em;
     color: var(--second-text-color);
     padding: 24px 0;
+    
 }
 
 .header-menu-link:hover,
@@ -132,12 +141,13 @@ gap: 40px;
     padding-top: 188px;
     padding-bottom: 48px;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7)0%,rgba(46, 47, 66, 0.7)100%),url(../images/peopleoffice.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7),url(../images/peopleoffice.jpg));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-right: auto;
     margin-left: auto;
+    max-width: 1440px;
 }
 .hero-container{
 flex-direction: column;
@@ -178,6 +188,7 @@ flex-direction: column;
     border: none;
     display: block;
     margin: 0 auto;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -191,6 +202,7 @@ flex-direction: column;
 .service{
     padding: 120px 0;
 }
+
 
 .visually-hidden {
     position: absolute;
@@ -212,11 +224,17 @@ top: 0px;
 background: #F4F4FD;
 border-radius: 4px;
 }
+
 .service-icons-images{
 justify-content: center;
 margin-top: 24px;
 margin-bottom: 24px;
 margin-left: 100px;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+
 }
 
 .service-item{
@@ -280,6 +298,9 @@ width: calc((100% - 72px) / 4);
 .people-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
     
 }
 .people-list{
@@ -330,6 +351,7 @@ width: calc((100% - 72px) / 4);
     height: 40px;
     margin-top: 8px;
     margin-bottom: 32px;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icons-list{
     display: flex;
@@ -347,7 +369,7 @@ width: calc((100% - 72px) / 4);
     align-items: center;
 }
 .container-img{
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .container-icon{
