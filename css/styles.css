@@ -442,6 +442,11 @@ border-color: #8e8f99;
 }
 .footer-container{
     flex-direction: column;
+    display: flex;
+    align-items: baseline;
+}
+.footer-logo-text{
+    margin-right: 120px;
 }
 
 .footer-logo {
