@@ -99,7 +99,6 @@ h6 {
     color: #2e2f42;
     letter-spacing: 0.02em;
     transition: color var(--transition);
-    position: relative;
 }
 .current::after {
     content: "";
