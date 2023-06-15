@@ -371,6 +371,11 @@ background-color: var(--title-color);
     align-items: center;
     background-color: #404bbf;
 }
+.icons-link:hover,
+.icons-link:focus{
+background-color: #404bbf;
+}
+
 .container-img{
     padding: 32px 0;
 }
