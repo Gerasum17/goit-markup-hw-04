@@ -643,8 +643,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         
 }
 
-.portfolio-img-link:hover.portfolio-overlay-text,
-.portfolio-img-link:focus.portfolio-overlay-text{
+.portfolio-img-link:hover .portfolio-overlay-text,
+.portfolio-img-link:focus .portfolio-overlay-text{
 transform: translateY(0%);
 }
 
