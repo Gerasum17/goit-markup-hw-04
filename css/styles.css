@@ -84,9 +84,8 @@ h6 {
 
 .header-menu {
     display: flex;
-    min-width: 261px;
-    margin-left: 76px;
     gap: 40px;
+    transition: color var(--transition);
 }
 
 .header-menu-item{
@@ -94,16 +93,12 @@ h6 {
     color: #404bbf;
 }
 
-.header-menu .header-menu-link {
-    font-weight: 500;
+.header-menu-link {
     font-size: 16px;
     line-height: 1.5;
     color: #2e2f42;
     letter-spacing: 0.02em;
-    padding: 24px 0;
-    display: block;
     transition: color var(--transition);
-    position: relative;
 }
 .current::after {
     content: "";
